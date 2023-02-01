@@ -1,7 +1,7 @@
-# **Iris classifiation**
+# **Iris classifiation**  
 My first machine learning project.
 
-**Project tasks:**
+**Project tasks:**  
 -------------
 - Loading a dataset
 - Summarizing the dataset
@@ -10,7 +10,7 @@ My first machine learning project.
 
 ***
 
-### **Loading dataset:**
+### **Loading dataset:**  
 We use "pandas" to upload our dataset.
 ```python
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
@@ -18,7 +18,7 @@ names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(url, names=names)
 ```
 
-#### Summarizing the dataset:
+#### Summarizing the dataset:  
 
 In this step, we'll look at the data in several different ways:
 1. Dataset sizes
@@ -26,7 +26,7 @@ In this step, we'll look at the data in several different ways:
 3. A statistical summary of all attributes
 4. Breakdown data by class variable
 
-**Dataset sizes**
+**Dataset sizes**  
 We can quickly understand how many instances (rows) and how many attributes (columns) the data contains using the shape property.
 ```python
 shape
@@ -36,7 +36,7 @@ print(dataset.shape)
 (150, 5)
 ```
 
-**Look at the data itself**
+**Look at the data itself**  
 ```python
 head
 print(dataset.head(20))
@@ -65,7 +65,7 @@ print(dataset.head(20))
 19           5.1          3.8           1.5          0.3  Iris-setosa
 ```
 
-**A statistical summary of all attributes**
+**A statistical summary of all attributes**  
 It shows the count, average, minimum and maximum values, as well as some percentiles.
 
 ```python
@@ -84,7 +84,7 @@ min        4.300000     2.000000      1.000000     0.100000
 max        7.900000     4.400000      6.900000     2.500000
 ```
 
-**Breakdown data by class variable**
+**Breakdown data by class variable**  
 We can look now at the number of instances (rows) that each class belongs to. We can consider this as an absolute score.
 
 ```python
