@@ -114,7 +114,7 @@ dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False
 plt.show()
 ```
 
-![](https://machinelearningmastery.ru/img/2497439962.png)
+![](https://github.com/XmuRi1/Iris_ML/blob/main/images/Figure_1.png)
 
 We can also create a histogram of each input variable to get an idea of the distribution.
 
@@ -123,7 +123,7 @@ dataset.hist()
 plt.show()
 ```
 
-![](https://machinelearningmastery.ru/img/6304187.png)
+![](https://github.com/XmuRi1/Iris_ML/blob/main/images/Figure_2.png)
 
 **Multidimensional plots**
 
@@ -135,7 +135,7 @@ scatter_matrix(dataset)
 plt.show()
 ```
 
-![](https://machinelearningmastery.ru/img/3841497546.png)
+![](https://github.com/XmuRi1/Iris_ML/blob/main/images/Figure_3.png)
 
 #### **Algorithm evaluation**
 
@@ -214,7 +214,7 @@ ax.set_xticklabels(names)
 plt.show()
 ```
 
-![](https://machinelearningmastery.ru/img/3981234014.png )
+![](https://github.com/XmuRi1/Iris_ML/blob/main/images/Figure_4.png)
 
 You can see many samples are reaching 100% accuracy.
 
