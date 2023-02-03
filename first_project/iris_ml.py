@@ -17,7 +17,7 @@ url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(url, names=names)
 
-# Output size, 20 fir   st rows and "about" of dataset
+# Output size, 20 first rows and "about" of dataset
 print(dataset.shape)
 print(dataset.head(20))
 print(dataset.describe())
@@ -50,7 +50,7 @@ X_train, X_test, Y_train, Y_test = model_selection.train_test_split(X, Y, test_s
 seed = 7
 scoring = 'accuracy'
 
-# making 5 algorithm models (Linear Regression and Linear Discriminat Analysis
+# making 6 algorithm models (Linear Regression and Linear Discriminat Analysis
 # (K-nearest neigbhours, Classification and Regression Trees, Naiv Base, SVM)
 models = []
 models.append(('LR', LogisticRegression()))
